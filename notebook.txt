@@ -1,0 +1,4 @@
+COMPILING:
+g++ jogo.cpp -o jogo `pkg-config --cflags --libs sfml-all`
+OR
+g++ jogo.cpp -o jogo -lsfml-graphics -lsfml-window -lsfml-system
